@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Outfit:wght@100;200&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 18px;
+  font-family: 'Epilogue', sans-serif;
+  background:#0d192b;
+  color:#ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper{
+  background: #14253d;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 365px;
+  height: auto;
+}
+.wrapper .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+}
+
+ .img img{
+   padding: 21px ;
+  width: 350px;
+  height: 350px;
+  border-radius: 10% ;
+
+}
+ .divColor:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    fill: #fff;
+}
+
+.divColor{
+  width: 306px;
+  height: 306px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4%;
+  background: #00fff7 ;
+  opacity: 0;
+  position: absolute;
+  top: 194px;
+  right: 807px;
+  transition: all 0.2s ease;
+}
+.divColor .view{
+  opacity: 1;
+  fill: #fff;
+}
+
+
+.bottom_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.bottom .tilte{
+  font-size: 20px;
+  padding: 15px 30px 10px 30px;
+  font-weight: 700;
+  transform: color 0.2s ease;
+}
+.bottom .tilte:hover{
+  color: #00fff7;
+  cursor: pointer;
+}
+.bottom .txt{
+  color: #8bacda;
+  font-size: 16px;
+  margin: 5px 30px;
+  font-weight: 300;
+  font-family: 'Outfit', sans-serif;
+}
+.comment{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 15px 0;
+}
+.comment .left,.right{
+  display: flex;
+}
+.comment .left  svg{
+  margin: 0 10px;
+}
+.comment .right  svg{
+  margin: 3px 10px;
+}
+.comment .left .price{
+  color:  #00fff7;
+}
+.comment .right .time{
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  color: #8bacda;
+  font-weight: normal;
+}
+.line{
+  width: 85%;
+  height: 1px;
+  background: #2f415b;
+  margin: 15px 0 10px 0;
+}
+.Avatar{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 10px 0 15px 50px;
+  width: 100%;
+}
+.Avatar img{
+  border: 2px solid ;
+  border-radius: 100%;
+  width: 40px;
+  margin: 0 20px 0 0;
+}
+.Avatar p{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  color: #8bacda;
+}
+.Avatar p span{
+  color: #fff;
+  transition: color 0.2s ease;
+}
+.Avatar p span:hover{
+  color: #00fff7;
+  cursor: pointer;
+}
